@@ -1096,7 +1096,7 @@ namespace cbit_motor {
         return temp;
 
     }
-    //% blockId=cbit_CarCtrl block="小车控制|%index"
+    //% blockId=cbit_CarCtrl block="Motion|%index"
     //% weight=93
     //% blockGap=10
     //% color="#006400"
