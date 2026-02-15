@@ -428,7 +428,7 @@ namespace cbit_电机类 {
 }
 
 //% color="#006400" weight=20 icon="\uf1b9"
-namespace cbit_小车类 {
+namespace cbit_motor {
 
     const PCA9685_ADD = 0x41
     const MODE1 = 0x00
@@ -526,19 +526,19 @@ namespace cbit_小车类 {
         S1 = 1
     }
     export enum CarState {
-        //% blockId="Car_Run" block="前行"
+        //% blockId="Car_Run" block="Forward"
         Car_Run = 1,
-        //% blockId="Car_Back" block="后退"
+        //% blockId="Car_Back" block="Backward"
         Car_Back = 2,
-        //% blockId="Car_Left" block="左转"
+        //% blockId="Car_Left" block="Left"
         Car_Left = 3,
-        //% blockId="Car_Right" block="右转"
+        //% blockId="Car_Right" block="Right"
         Car_Right = 4,
-        //% blockId="Car_Stop" block="停止"
+        //% blockId="Car_Stop" block="Stop"
         Car_Stop = 5,
-        //% blockId="Car_SpinLeft" block="原地左旋"
+        //% blockId="Car_SpinLeft" block="SpinLeft"
         Car_SpinLeft = 6,
-        //% blockId="Car_SpinRight" block="原地右旋"
+        //% blockId="Car_SpinRight" block="SpinRight"
         Car_SpinRight = 7         
     }
     export enum AloneState {
