@@ -996,7 +996,7 @@ namespace cbit_motor {
             case enMusic.power_down: music.beginMelody(music.builtInMelody(Melodies.PowerDown), MelodyOptions.Once); break;
         }
     }
-    //% blockId=cbit_Servo_Car block="小车舵机|编号 %num|角度 %value"
+    //% blockId=cbit_Servo_Car block="Motion|编号 %num|角度 %value"
     //% weight=96
     //% blockGap=10
     //% color="#006400"
