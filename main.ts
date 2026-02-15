@@ -1112,7 +1112,7 @@ namespace cbit_motor {
             case CarState.Car_SpinRight: Car_spinright(255); break;
         }
     }
-    //% blockId=cbit_CarCtrlSpeed block="小车控制|%index|速度 %speed"
+    //% blockId=cbit_CarCtrlSpeed block="Motion|%index|速度 %speed"
     //% weight=92
     //% blockGap=10
     //% speed.min=0 speed.max=255
