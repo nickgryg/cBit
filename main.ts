@@ -967,7 +967,7 @@ namespace cbit_motor {
         return d / 58;
     }
 
-    //% blockId=cbit_Music_Car block="小车音乐播放|%index"
+    //% blockId=cbit_Music_Car block="Motion|%index"
     //% weight=97
     //% blockGap=10
     //% color="#006400"
